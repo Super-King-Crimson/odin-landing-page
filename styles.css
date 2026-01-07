@@ -1,11 +1,12 @@
 * {
-  font-family: "Arial", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  background: #04044a;
 }
 
 h3 {
@@ -13,9 +14,18 @@ h3 {
   padding: 0;
 }
 
+button {
+  background: blue;
+  color: white;
+  padding: 8px 40px;
+  border: 0px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .top {
   margin: 0;
-  background: #04044a;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -46,6 +56,18 @@ div.header {
   gap: 64px;
 }
 
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #bbbbbb;
+  margin: 8px 0px;
+}
+
 /* TODO: figure out why this isn't maintaining its size */
 .placeholder1 {
   display: flex;
@@ -54,11 +76,6 @@ div.header {
   align-items: center;
   text-align: center;
   width: 600px;
-  height: 400px;
+  height: 300px;
   flex: 1 0 auto;
-}
-
-.title {
-  font-size: 64px;
-  font-weight: bold;
 }
