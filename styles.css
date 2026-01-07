@@ -43,6 +43,7 @@ div.header {
 .intro {
   margin: 128px 0px;
   display: flex;
+  gap: 64px;
 }
 
 /* TODO: figure out why this isn't maintaining its size */
@@ -52,7 +53,9 @@ div.header {
   background: #888888;
   align-items: center;
   text-align: center;
-  flex: 1 0;
+  width: 600px;
+  height: 400px;
+  flex: 1 0 auto;
 }
 
 .title {
