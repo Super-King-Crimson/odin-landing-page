@@ -35,7 +35,7 @@ h2 {
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  padding: 16px 128px;
+  padding: 16px 256px;
 }
 
 div.header {
