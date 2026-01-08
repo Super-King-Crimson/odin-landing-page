@@ -1,3 +1,3 @@
 # odin-landing-page
 
-TODO: add project description and add credits
+Completed in one day (technically !)
