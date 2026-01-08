@@ -199,3 +199,10 @@ div.header {
   padding: 4px 32px;
   margin-left: 32px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0px;
+  color: white;
+}
