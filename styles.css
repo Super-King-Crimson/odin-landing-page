@@ -44,6 +44,7 @@ div.header {
 
 .header h3 {
   margin-right: auto;
+  font-weight: 900;
 }
 
 .right-links {
@@ -93,9 +94,14 @@ div.header {
   padding-bottom: 128px;
 }
 
-/* TODO: Make these boxes wrap */
+.info h2 {
+  padding: 0px 32px;
+  text-align: center;
+}
+
 .boxes {
   display: flex;
+  flex-wrap: wrap;
   margin: 0px 64px;
   gap: 32px;
 }
@@ -127,7 +133,6 @@ div.header {
   justify-content: center;
 }
 
-/* TODO: make this wrap as well */
 .quote {
   display: flex;
   flex-direction: column;
