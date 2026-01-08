@@ -16,7 +16,7 @@ h3 {
 
 button {
   background: blue;
-color: white;
+  color: white;
   padding: 8px 40px;
   border: 0px;
   border-radius: 8px;
@@ -26,7 +26,7 @@ color: white;
 
 h2 {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 900;
   margin: 32px 0;
 }
 
@@ -64,7 +64,7 @@ div.header {
 
 .title {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 900;
   margin: 0px;
 }
 
@@ -116,4 +116,35 @@ div.header {
 .subbed-image .subtitle {
   color: #555555;
   text-align: center;
+}
+
+.center-bottom {
+  background: #dddddd;
+  padding-top: 128px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.said {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  margin: 0px;
+  width: inherit;
+}
+
+.sayer {
+  margin: 0px;
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 20px;
 }
