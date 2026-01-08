@@ -15,7 +15,7 @@ h3 {
 }
 
 button {
-  background: blue;
+  background: #3c4fc9;
   color: white;
   padding: 8px 40px;
   border: 0px;
@@ -93,6 +93,7 @@ div.header {
   padding-bottom: 128px;
 }
 
+/* TODO: Make these boxes wrap */
 .boxes {
   display: flex;
   margin: 0px 64px;
@@ -120,14 +121,14 @@ div.header {
 
 .center-bottom {
   background: #dddddd;
-  padding-top: 128px;
-  padding-bottom: 64px;
+  padding: 128px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
+/* TODO: make this wrap as well */
 .quote {
   display: flex;
   flex-direction: column;
@@ -147,4 +148,49 @@ div.header {
   margin-left: auto;
   font-weight: bold;
   font-size: 20px;
+}
+
+.cta {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.bluebox {
+  display: flex;
+  background: #3c4fc9;
+  padding: 32px 128px;
+  margin: 64px auto;
+  width: 600px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.mini-title,
+.mini-subtitle {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mini-title {
+  font-size: 18px;
+}
+
+.mini-subtitle {
+  font-size: 12px;
+}
+
+.sign-up {
+  height: fit-content;
+  width: fit-content;
+  border: 2px solid white;
+  padding: 4px 32px;
+  margin-left: 32px;
 }
